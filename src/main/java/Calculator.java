@@ -1,7 +1,4 @@
-import org.xml.sax.SAXException;
-
 import javax.xml.stream.XMLStreamException;
-import java.io.IOException;
 import java.util.List;
 
 import static java.lang.Double.NaN;
@@ -24,7 +21,7 @@ public interface Calculator {
     }
 
     List<Double> solve();
-    boolean isValid(String path) throws IOException, SAXException;
+    boolean isValid(String path);
     void writeToXML(List<Double> results) throws XMLStreamException;
     void writeToXML(List<Double> results, String path) throws XMLStreamException;
 }

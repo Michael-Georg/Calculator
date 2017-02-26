@@ -15,4 +15,3 @@ gradlew*
 *.jar
 *.war
 *.ear
-/gradle/
