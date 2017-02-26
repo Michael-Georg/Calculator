@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleCalculator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="Calculator.xsd">
+    <expressions>
+        <expression>
+            <operation OperationType="DIV">
+                <arg>4</arg>
+                <arg>0</arg>
+            </operation>
+        </expression>
+    </expressions>
+</simpleCalculator>

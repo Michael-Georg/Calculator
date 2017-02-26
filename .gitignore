@@ -1,11 +1,7 @@
 # IntelliJ project files #
 .idea
-classes
 out
 build
-*.class
-*.iml
-
 # Eclipse project files #
 .classpath
 .project
@@ -19,3 +15,4 @@ gradlew*
 *.jar
 *.war
 *.ear
+/gradle/
